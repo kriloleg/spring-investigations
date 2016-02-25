@@ -19,7 +19,7 @@ public class MainController {
     @Autowired
     private MessageRepository messageRepository;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String home() {
         return "Hello from Spring Boot application!";
     }
